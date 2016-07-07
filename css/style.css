@@ -1,0 +1,373 @@
+@font-face{
+    font-family: "FitnessFont";
+    src: url("/fonts/AvenirCondensedHand.ttf");
+}
+@font-face{
+    font-family: "FitnessFont-1";
+    src: url("/fonts/proximanovacond-regular.otf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "OpenSans Light";
+    src: url("/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("/fonts/OpenSans-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "NavBarFont";
+    src: url("/fonts/Avenir Next Rounded W01 Demi.ttf");
+}
+body {
+    background-color: #fd634e;
+}
+.navbar-site-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-site-name :hover {
+    color: orange;
+}
+#first-page {
+    background-image: url("/uploads/first-page-bg.png");
+    background-size: 100% 951px;
+    width: 100%;
+    height: 951px;
+}
+#logo {
+    width: 40px;
+}
+#top-nav {
+    margin-top: 15px;
+}
+#top-nav a {
+    font-family: "NavBarFont";
+    color: white;
+    font-size: 24px;
+}
+#top-nav ul li a:hover {
+    color: black;
+    font-weight: 700;
+ }
+.navbar-nav {
+    text-align: right;
+    float: right;
+}
+#site-menu {
+    width:80%;
+    float: right;
+}
+.right-menu {
+    width: 500px;
+    float: right;
+}
+.navbar-default {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+.navbar-nav {
+    width: 700px;
+}
+.special-text {
+    text-transform: uppercase;
+    font-family: "FitnessFont";
+    font-weight: bold;
+    color: white;
+}
+#text-1 {
+    font-size: 32px;
+    margin: 0; padding: 0;
+    text-align: right;
+}
+#text-2 {
+    font-size: 16px;
+    margin: 0; padding: 0;
+    text-align: right;
+    font-weight: bolder;
+}
+#first-page-text {
+    margin-top: 600px ;
+}
+.special-green {
+    color: #a2ca28;
+}
+.bg-green {
+    background-color: #a2ca28;
+}
+.special-sweet {
+    color: #aa4a40;
+}
+.left {
+    float: left;
+    text-align: left;
+}
+#second-page {
+    background-color: #a2ca28;
+    width: 100%;
+    height: 1260px;
+}
+.second-page-text {
+    font-family: "FitnessFont-1";
+    color: white;
+    margin-top: 70px;
+}
+.second-page-text a {
+    color: white;
+}
+.second-page-advertisement-p {
+    height: 125px;
+}
+.second-page-icon {
+    margin: 5px;
+}
+.sub-area-1 {
+    background-color: white;
+    height:432px;
+    padding: 30px;
+}
+#sub-area-1-img {
+    height:432px;
+    background-image: url("../uploads/sub-area-1.png");
+}
+.sixteen-font {
+    font-size:16px;
+}
+.twenty-four-font {
+    font-size:24px;
+}
+.no-margin {
+    margin: 0;
+}
+.sp-t-2 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+}
+.few-margin-top {
+    margin-top: 45px;
+}
+#second-page-area-1 {
+    margin-top: 80px;
+}
+.special-sweet-2 {
+    color: #fd715f;
+}
+.special-green-2 {
+    color: #cccc66;
+}
+.font-sas {
+    font-family: "OpenSans";
+}
+.text-center {
+    text-align: center;
+}
+#text-3 {
+    margin: 365px 20px 0 0;
+    vertical-align: bottom;
+    float: right;
+    color: #ed5d49;
+}
+.white-color {
+    color: white;
+}
+#second-page-area-2 {
+    height: 408px;
+}
+#sub-area-2-img {
+    background-image: url("../uploads/sub-area-2.png");
+    height: 408px;
+}
+.font-sas-light {
+    font-family: "OpenSans Light";
+}
+#second-page-area-2-text {
+    padding: 40px;
+    background-color: white;
+    height: 408px;
+}
+#text-4 {
+    margin: 342px 0 0 20px;
+}
+#third-page {
+    height: 664px;
+}
+#sub-area-3-img-1 {
+    background-image: url("../uploads/sub-area-3-1.png");
+    height: 332px;
+}
+#sub-area-3-img-2 {
+    background-image: url("../uploads/sub-area-3-2.png");
+    height: 332px;
+}
+.font-monster {
+    font-family: "Montserrat";
+}
+#text-5 {
+    margin: 60px 0 0 40px;
+    float: left;
+}
+#text-6 {
+    margin: 60px 40px 0 0;
+    text-align: right;
+}
+.to-uppercase {
+    text-transform: uppercase;
+}
+#sub-area-3-img-3 {
+    background-color: white;
+    height: 300px;
+}
+#sub-area-3-img-4 {
+    background-color: #a2ca28;
+    height: 300px;
+    box-shadow: 5px 5px 50px;
+}
+.thirty-seconds-font  {
+    font-size: 32px;
+}
+#icon-1 {
+    margin-top: 40px;
+    text-align: right;
+}
+#text-7 {
+    margin-top: 40px;
+}
+#text-7-1 {
+    margin-top: -8px;
+}
+#text-8 {
+    width: 320px;
+}
+#sub-area-3-img-5 {
+    background-image: url("../uploads/sub-area-3-5.png");
+    height: 331px;
+}
+#sub-area-3-img-7 {
+    background-color: white;
+    height: 300px;
+}
+#area-for-img-1 {
+    text-align: right;
+}
+#img-1 {
+    margin: 40px 20px 0 0;
+}
+#text-9 {
+    margin: -10px -5px 0 0;
+}
+#text-10 {
+    width: 680px;
+}
+#sub-area-3-img-6 {
+    background-image: url("../uploads/sub-area-3-6.png");
+    height: 331px;
+}
+#sub-area-3-img-8 {
+    background-color: #a2ca28;
+    height: 300px;
+}
+#area-for-img-2 {
+    text-align: right;
+}
+#text-11 {
+    margin: -19px 0 0 0;
+}
+#four-page {
+    background-image: url("../uploads/sub-area-4-1.png");
+    width: 100%;
+    height: 747px;
+    z-index: -1;
+}
+#text-12 {
+    width: 320px;
+}
+#area-for-img-3 {
+    vertical-align: bottom;
+}
+#img-3 {
+    margin-top: -120px;
+    width: 100%;
+
+    z-index: -1;
+}
+#pre-footer {
+    margin-top: -120px;
+    background-image: url("../uploads/sub-area-4-2.png");
+    height: 190px;
+    width: 100%;
+}
+#footer {
+    width: 100%;
+    background-color: #0d1119;
+}
+.text-footer-color {
+    color: #8297a7;
+}
+.btn-circle-custom {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    text-align: center;
+}
+#link-facebook {
+    background-color: #2e3192;
+}
+#link-twitter {
+    background-color: #00aeef;
+}
+#link-youtube {
+    background-color: #ed3123;
+}
+#link-instagram {
+    background-color: #171a8f;
+}
+#social-icon {
+    margin: 20px 0 0 10px;
+}
+#social-icon a {
+    padding: 10px;
+}
+#footer-top {
+    margin: auto;
+    width: 70%;
+}
+#input-name {
+    width: 200px;
+}
+#input-email {
+    width: 230px;
+}
+#join-btn {
+    width: 200px;
+}
+#join-btn {
+    color: white;
+}
+#footer-center {
+    float: right;
+    margin: 0 auto;
+    height: 251px;
+}
+.form-control-custom {
+    display: inline-block;
+    margin: 5px;
+}
+@media screen and (max-width: 1086px) {
+    #first-page {
+        background-size: 100% 500px ;
+        height: 500px
+    }
+}
+#text-1,#text-2 {
+    font-weight: bolder;
+}
